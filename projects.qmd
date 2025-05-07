@@ -1,5 +1,23 @@
 ---
-title: "projects"
+title: "Projects"
 format: html
 ---
+
+# Projects
+
+## Smaller Projects
+
+### Lab 1: [hyperlink](url)
+
+In lab 1 we looked at COVID cases
+
+#### Lab 2
+
+!["this is my image'](images/test.png)
+
+```{r}
+# echo: false
+knitr::include_graphics('images/test.png')
+# knitr has lots of options for how to display graphics
+```
 
