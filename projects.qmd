@@ -3,21 +3,32 @@ title: "Projects"
 format: html
 ---
 
-# Projects
+## NPS Projects
 
-## Smaller Projects
+## CSU Projects
 
-### Lab 1: [hyperlink](url)
+### COVID-19 Spread and Case Estimates: [COVID-19 Cases](https://ddunn303.github.io/csu-523c/lab-01.html)
 
-In lab 1 we looked at COVID cases
+For this project I looked at COVID cases and deaths across the country, tracked how they changed over time and space, and created a linear regression model to estimate new cases where data was unavailable.
 
-#### Lab 2
-
-!["this is my image'](images/test.png)
-
-```{r}
-# echo: false
-knitr::include_graphics('images/test.png')
-# knitr has lots of options for how to display graphics
+```{r, echo=FALSE}
+knitr::include_graphics('images/lab1_modelresults.png')
 ```
 
+## Other projects
+
+### Irrigation Ditch Companies
+
+While working on the City of Boulder's water supply team, I held several positions with different Irrigation Ditch Companies that the City had an ownership or interest in. My duties varied, but for several companies I developed websites to provide education and outreach materials, provide shareholders with company information, and host real time data availability data.
+
+[Anderson Ditch Company Website](https://www.andersonditchcompany.com)
+
+[Farmers Ditch Company Website](https://www.farmersditchcompany.com)
+
+### City of Boulder Irrigation Ditch Education and Outreach
+
+As part of my role at the City of Boulder, I led Education and Outreach efforts related to water rights, water supply, and Irrigation Ditch operations. To provide information about these complex topics, I developed a number of documents for City Staff and the public.
+
+[Irrigation Ditch FAQ]()
+
+### 2013 Flood Recovery on St. Vrain Creek

@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -108,40 +107,49 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="images/headshot.jpg" class="about-image
+  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Doug Dunn</h1>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="quarto-title-meta column-page">
   </div>
-  
-
-
 </header>
-
-
+    <div class="about-links">
+  <a href="/www.linkedin.com/in/douglasgdunn" class="about-link" rel="" target="">
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/ddunn303" class="about-link" rel="" target="">
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="mailto:d.dunn@colostate.edu" class="about-link" rel="" target="">
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
 <p>Hi, I’m Doug, a data scientist and water resource specialist with expertise in water rights, water supply, and sustainability across Colorado and the Western U.S. I specialize in using geospatial and data analysis tools to collect, manage, and analyze water resource data, creating impactful reports, visualizations, and applications to deliver clear, user-friendly insights.</p>
 <p>I’m passionate about education and outreach, working to help communities and stakeholders understand hydrology and water resource challenges through accessible communication and engaging initiatives. With experience collaborating with government agencies, NGOs, and diverse stakeholders, I excel at delivering data-driven solutions and translating complex technical information into actionable strategies for water supply management, infrastructure, and conservation.</p>
+<section id="resume" class="level2">
+<h2 data-anchor-id="resume">Resume</h2>
+<object data="data/resume.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;"> 
+<p>It appears you don't have a PDF plugin for this browser.
+No worries... you can <a href="resume.pdf">click here to download a PDF of my resume.</a></p> 
+</object>
 
 
-
-</main> <!-- /main -->
+</section>
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -162,13 +170,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

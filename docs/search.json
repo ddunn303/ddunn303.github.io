@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Doug Dunn",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Hi, I’m Doug, a data scientist and water resource specialist with expertise in water rights, water supply, and sustainability across Colorado and the Western U.S. I specialize in using geospatial and data analysis tools to collect, manage, and analyze water resource data, creating impactful reports, visualizations, and applications to deliver clear, user-friendly insights.\nI’m passionate about education and outreach, working to help communities and stakeholders understand hydrology and water resource challenges through accessible communication and engaging initiatives. With experience collaborating with government agencies, NGOs, and diverse stakeholders, I excel at delivering data-driven solutions and translating complex technical information into actionable strategies for water supply management, infrastructure, and conservation."
+    "text": "For this project I looked at COVID cases and deaths across the country, tracked how they changed over time and space, and created a linear regression model to estimate new cases where data was unavailable."
+  },
+  {
+    "objectID": "projects.html#csu-projects",
+    "href": "projects.html#csu-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "For this project I looked at COVID cases and deaths across the country, tracked how they changed over time and space, and created a linear regression model to estimate new cases where data was unavailable."
   },
   {
     "objectID": "about.html",
@@ -12,5 +19,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Doug Dunn",
+    "section": "",
+    "text": "Hi, I’m Doug, a data scientist and water resource specialist with expertise in water rights, water supply, and sustainability across Colorado and the Western U.S. I specialize in using geospatial and data analysis tools to collect, manage, and analyze water resource data, creating impactful reports, visualizations, and applications to deliver clear, user-friendly insights.\nI’m passionate about education and outreach, working to help communities and stakeholders understand hydrology and water resource challenges through accessible communication and engaging initiatives. With experience collaborating with government agencies, NGOs, and diverse stakeholders, I excel at delivering data-driven solutions and translating complex technical information into actionable strategies for water supply management, infrastructure, and conservation."
+  },
+  {
+    "objectID": "index.html#resume",
+    "href": "index.html#resume",
+    "title": "Doug Dunn",
+    "section": "Resume",
+    "text": "Resume\n \nIt appears you don't have a PDF plugin for this browser.\nNo worries... you can click here to download a PDF of my resume."
   }
 ]

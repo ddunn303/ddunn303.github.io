@@ -14,11 +14,13 @@ website:
 format:
   html:
     theme: 
-      - cosmo
+      - yeti
       - brand
     
     css: styles.css
-    toc: true
+    toc: false
+    page-layout: full
+    
 
 editor: visual
 

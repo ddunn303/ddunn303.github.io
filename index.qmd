@@ -1,7 +1,26 @@
 ---
 title: "Doug Dunn"
+image: images/headshot.jpg
+about: 
+  template: trestles
+  links: 
+    - text: LinkedIn
+      href: www.linkedin.com/in/douglasgdunn
+    - text: GitHub
+      href: https://github.com/ddunn303
+    - text: Email
+      href: mailto:d.dunn@colostate.edu
 ---
 
-Hi, I'm Doug, a data scientist and water resource specialist with expertise in water rights, water supply, and sustainability across Colorado and the Western U.S. I specialize in using geospatial and data analysis tools to collect, manage, and analyze water resource data, creating impactful reports, visualizations, and applications to deliver clear, user-friendly insights.
+Hi, I'm Doug, a data scientist and water resource specialist wokring on water rights, water supply, and sustainability across Colorado and the Western U.S. I specialize in using geospatial and data analysis tools to collect, manage, and analyze historic, current, and future water resource data. From this, I enjoy creating impactful reports, stunning visualizations, and functional applications to deliver clear, user-friendly insights.
 
 I’m passionate about education and outreach, working to help communities and stakeholders understand hydrology and water resource challenges through accessible communication and engaging initiatives. With experience collaborating with government agencies, NGOs, and diverse stakeholders, I excel at delivering data-driven solutions and translating complex technical information into actionable strategies for water supply management, infrastructure, and conservation.
+
+## Resume
+
+```{=html} 
+<object data="data/resume.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;"> 
+<p>It appears you don't have a PDF plugin for this browser.
+No worries... you can <a href="resume.pdf">click here to download a PDF of my resume.</a></p> 
+</object>
+```
