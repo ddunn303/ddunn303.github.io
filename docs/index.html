@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fd053a38988e21bb3d3b0b617a2084cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -136,8 +136,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<p>Hi, I’m Doug, a data scientist and water resource specialist with expertise in water rights, water supply, and sustainability across Colorado and the Western U.S. I specialize in using geospatial and data analysis tools to collect, manage, and analyze water resource data, creating impactful reports, visualizations, and applications to deliver clear, user-friendly insights.</p>
-<p>I’m passionate about education and outreach, working to help communities and stakeholders understand hydrology and water resource challenges through accessible communication and engaging initiatives. With experience collaborating with government agencies, NGOs, and diverse stakeholders, I excel at delivering data-driven solutions and translating complex technical information into actionable strategies for water supply management, infrastructure, and conservation.</p>
+<p>Hi, I’m <strong>Doug</strong>, a data scientist and water resource specialist working on water rights, water supply, and sustainability across Colorado and the Western U.S. I specialize in using <strong>geospatial</strong> and <strong>data analysis</strong> tools to collect, manage, and analyze historic, current, and future water resource data. From this, I enjoy creating impactful reports, stunning visualizations, and functional applications to deliver clear, user-friendly insights.</p>
+<p>I’m passionate about <strong>education and outreach</strong>, working to help communities and stakeholders understand hydrology and water resource challenges through accessible communication and engaging initiatives. I am also obsessed with <strong>Irrigation Ditches</strong> and <strong>Storm Water Infrastructure</strong>. You can often find me following irrigation ditch canals and floodplain flow paths, especially during good rain storms.</p>
+<p><a href="./about.html">More about me</a></p>
 <section id="resume" class="level2">
 <h2 data-anchor-id="resume">Resume</h2>
 <object data="data/resume.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;"> 
@@ -225,8 +226,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -337,7 +336,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

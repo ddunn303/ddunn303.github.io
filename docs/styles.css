@@ -1,1 +1,8 @@
 /* css styles */
+
+.icon-paragraph::before {
+  content: url('images/bport.jpg'); /* or use an emoji or Font Awesome class */
+  display: inline-block;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}

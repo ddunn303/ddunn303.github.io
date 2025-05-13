@@ -5,14 +5,63 @@ format: html
 
 ## NPS Projects
 
+### Well Database Demo
+I created this [Well Database ShinyApp](https://dougdunn.shinyapps.io/NPSwells/) demo for the National Park Service to showcase a simple option to create a user interface that could host a database for groundwater wells and link those wells to water level measurements in NWIS (if available).
+
+Ultimately it was decided to host the user interface was as a custom ArcGIS Experience that I created, to allow for the well database to be incorporated into a number of other NPS webmaps and Experiences.
+
+```{r, echo=FALSE}
+knitr::include_graphics('images/well_db.png')
+```
+
+### Tracking Water Storage in Frozen Lake
+As part of the Water Supply investigation at Mount Rainier National Park I combined depth measurements made by park staff with USGS DEM data to create a new storage rating curver for Frozen Lake.
+
+```{r, echo=FALSE}
+knitr::include_graphics('images/frozen_lake.png')
+```
+
+I then took this information and created a function that would download the most recent cloud free landsat imagery, process the imagery to determine the surface area of the lake, and use the surface area to estimate the amount of water currently stored in reservoir. This allows the park to have frequent measurements of storage without the need for additional staff time or equipment.
+
+### Water Supply Well Reports
+I compiled a number of reports on several water supply wells in use by the National Park Service. This was a large amount of data, as the water levels had been recorded at 30 minute intervals for more than 10 years. In addition, I needed to estimate water use based on when water levels were drawn down by the pump in each well. This required creating several functions to identify when the water was being drawn down by the pump, when the water level was recovering after the pump was off, and when water level changes were due to changes in the surrounding groundwater.
+
+This plot of daily water level min, mean, and max is an example of the natural water level (min) and water level during pumping the water level (max). Mean roughly visualizes use, but can be misleading at times. 
+
+```{r, echo=FALSE}
+knitr::include_graphics('images/mp4_dtw_plot.png')
+```
+
+I was also able to summarize this data for each year to compare how operations have changed and if the water use is driven by visitation to the park.
+
+```{r, echo=FALSE}
+knitr::include_graphics('images/pump_est.png')
+```
+
+
 ## CSU Projects
 
-### COVID-19 Spread and Case Estimates: [COVID-19 Cases](https://ddunn303.github.io/csu-523c/lab-01.html)
-
+### COVID-19 Spread and Case Estimates: 
 For this project I looked at COVID cases and deaths across the country, tracked how they changed over time and space, and created a linear regression model to estimate new cases where data was unavailable.
 
 ```{r, echo=FALSE}
 knitr::include_graphics('images/lab1_modelresults.png')
+```
+
+
+### Remote Sensing Flood Inundation
+This project looked at the flooding event that took place in Palo, Iowa in September of 2016. Using landsat imagery, I developed a classification threshold from a number of indices to identify flooded areas, which were then plotted on an interactive map to compare against some of the known flood areas.
+
+```{r, echo=FALSE}
+knitr::include_graphics('images/palo_floodmap.png')
+```
+
+
+### Flow Predictions
+For this project I worked with the CAMELS dataset to test a number of attributes to be used as predictors for flow (Q) in a number of different models. The goal was to not only create a successful model (R-squared > 0.9), but to also create a workflow in tidymodels that can evaluate and tune a number of different model types efficiently. For this case, the neural net model was the best pick, but since it was a neural net model it was difficult to identify what attributes had been the most important in model.
+
+```{r, echo=FALSE}
+knitr::include_graphics('images/nn_model.png')
 ```
 
 ## Other projects
@@ -29,6 +78,10 @@ While working on the City of Boulder's water supply team, I held several positio
 
 As part of my role at the City of Boulder, I led Education and Outreach efforts related to water rights, water supply, and Irrigation Ditch operations. To provide information about these complex topics, I developed a number of documents for City Staff and the public.
 
-[Irrigation Ditch FAQ]()
+[Irrigation Ditch FAQ](https://bouldercolorado.gov/sites/default/files/2021-01/2016-11-09ditchfaq.pdf)
 
 ### 2013 Flood Recovery on St. Vrain Creek
+
+While working at Boulder County Parks & Open Space I had the opportunity to work on a number of stream restoration, fish passage, and emergency flood recovery projects. This experience shaped my career by allowing me to rapidly gain experience in project management.
+
+[2013 Flood Recovery Projects](https://bouldercounty.gov/open-space/management/flood-recovery-projects/)

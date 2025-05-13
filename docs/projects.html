@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fd053a38988e21bb3d3b0b617a2084cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -134,15 +134,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="projects" class="level1">
-<h1>Projects</h1>
 <section id="nps-projects" class="level2">
 <h2 class="anchored" data-anchor-id="nps-projects">NPS Projects</h2>
+<section id="well-database-demo" class="level3">
+<h3 class="anchored" data-anchor-id="well-database-demo">Well Database Demo</h3>
+<p>I created this <a href="https://dougdunn.shinyapps.io/NPSwells/">Well Database ShinyApp</a> demo for the National Park Service to showcase a simple option to create a user interface that could host a database for groundwater wells and link those wells to water level measurements in NWIS (if available).</p>
+<p>Ultimately it was decided to host the user interface was as a custom ArcGIS Experience that I created, to allow for the well database to be incorporated into a number of other NPS webmaps and Experiences.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/well_db.png" class="img-fluid figure-img" width="954"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="tracking-water-storage-in-frozen-lake" class="level3">
+<h3 class="anchored" data-anchor-id="tracking-water-storage-in-frozen-lake">Tracking Water Storage in Frozen Lake</h3>
+<p>As part of the Water Supply investigation at Mount Rainier National Park I combined depth measurements made by park staff with USGS DEM data to create a new storage rating curver for Frozen Lake.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/frozen_lake.png" class="img-fluid figure-img" width="440"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>I then took this information and created a function that would download the most recent cloud free landsat imagery, process the imagery to determine the surface area of the lake, and use the surface area to estimate the amount of water currently stored in reservoir. This allows the park to have frequent measurements of storage without the need for additional staff time or equipment.</p>
+</section>
+<section id="water-supply-well-reports" class="level3">
+<h3 class="anchored" data-anchor-id="water-supply-well-reports">Water Supply Well Reports</h3>
+<p>I compiled a number of reports on several water supply wells in use by the National Park Service. This was a large amount of data, as the water levels had been recorded at 30 minute intervals for more than 10 years. In addition, I needed to estimate water use based on when water levels were drawn down by the pump in each well. This required creating several functions to identify when the water was being drawn down by the pump, when the water level was recovering after the pump was off, and when water level changes were due to changes in the surrounding groundwater.</p>
+<p>This plot of daily water level min, mean, and max is an example of the natural water level (min) and water level during pumping the water level (max). Mean roughly visualizes use, but can be misleading at times.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/mp4_dtw_plot.png" class="img-fluid figure-img" width="432"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>I was also able to summarize this data for each year to compare how operations have changed and if the water use is driven by visitation to the park.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/pump_est.png" class="img-fluid figure-img" width="350"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="csu-projects" class="level2">
 <h2 class="anchored" data-anchor-id="csu-projects">CSU Projects</h2>
-<section id="covid-19-spread-and-case-estimates-covid-19-cases" class="level3">
-<h3 class="anchored" data-anchor-id="covid-19-spread-and-case-estimates-covid-19-cases">COVID-19 Spread and Case Estimates: <a href="https://ddunn303.github.io/csu-523c/lab-01.html">COVID-19 Cases</a></h3>
+<section id="covid-19-spread-and-case-estimates" class="level3">
+<h3 class="anchored" data-anchor-id="covid-19-spread-and-case-estimates">COVID-19 Spread and Case Estimates:</h3>
 <p>For this project I looked at COVID cases and deaths across the country, tracked how they changed over time and space, and created a linear regression model to estimate new cases where data was unavailable.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -153,9 +203,53 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-
-
 </section>
+<section id="remote-sensing-flood-inundation" class="level3">
+<h3 class="anchored" data-anchor-id="remote-sensing-flood-inundation">Remote Sensing Flood Inundation</h3>
+<p>This project looked at the flooding event that took place in Palo, Iowa in September of 2016. Using landsat imagery, I developed a classification threshold from a number of indices to identify flooded areas, which were then plotted on an interactive map to compare against some of the known flood areas.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/palo_floodmap.png" class="img-fluid figure-img" width="378"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="flow-predictions" class="level3">
+<h3 class="anchored" data-anchor-id="flow-predictions">Flow Predictions</h3>
+<p>For this project I worked with the CAMELS dataset to test a number of attributes to be used as predictors for flow (Q) in a number of different models. The goal was to not only create a successful model (R-squared &gt; 0.9), but to also create a workflow in tidymodels that can evaluate and tune a number of different model types efficiently. For this case, the neural net model was the best pick, but since it was a neural net model it was difficult to identify what attributes had been the most important in model.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/nn_model.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="other-projects" class="level2">
+<h2 class="anchored" data-anchor-id="other-projects">Other projects</h2>
+<section id="irrigation-ditch-companies" class="level3">
+<h3 class="anchored" data-anchor-id="irrigation-ditch-companies">Irrigation Ditch Companies</h3>
+<p>While working on the City of Boulder’s water supply team, I held several positions with different Irrigation Ditch Companies that the City had an ownership or interest in. My duties varied, but for several companies I developed websites to provide education and outreach materials, provide shareholders with company information, and host real time data availability data.</p>
+<p><a href="https://www.andersonditchcompany.com">Anderson Ditch Company Website</a></p>
+<p><a href="https://www.farmersditchcompany.com">Farmers Ditch Company Website</a></p>
+</section>
+<section id="city-of-boulder-irrigation-ditch-education-and-outreach" class="level3">
+<h3 class="anchored" data-anchor-id="city-of-boulder-irrigation-ditch-education-and-outreach">City of Boulder Irrigation Ditch Education and Outreach</h3>
+<p>As part of my role at the City of Boulder, I led Education and Outreach efforts related to water rights, water supply, and Irrigation Ditch operations. To provide information about these complex topics, I developed a number of documents for City Staff and the public.</p>
+<p><a href="https://bouldercolorado.gov/sites/default/files/2021-01/2016-11-09ditchfaq.pdf">Irrigation Ditch FAQ</a></p>
+</section>
+<section id="flood-recovery-on-st.-vrain-creek" class="level3">
+<h3 class="anchored" data-anchor-id="flood-recovery-on-st.-vrain-creek">2013 Flood Recovery on St.&nbsp;Vrain Creek</h3>
+<p>While working at Boulder County Parks &amp; Open Space I had the opportunity to work on a number of stream restoration, fish passage, and emergency flood recovery projects. This experience shaped my career by allowing me to rapidly gain experience in project management.</p>
+<p><a href="https://bouldercounty.gov/open-space/management/flood-recovery-projects/">2013 Flood Recovery Projects</a></p>
+
+
 </section>
 </section>
 
@@ -242,8 +336,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -354,7 +446,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

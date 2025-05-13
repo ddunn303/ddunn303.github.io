@@ -1,9 +1,52 @@
 ---
 title: "About"
+format:
+  html:
+    css: styles.css
 ---
 
-About this site
+### Life on the Farm
 
-```{r}
-1 + 1
-```
+I grew up in Northeast Colorado on an irrigated hay farm under the [FRICO](https://www.farmersres.com/about) irrigation system. Setting irrigation runs and spending much of my time outside during late afternoon storms started my passion for water.
+
+### SUNY Brockport
+
+I started at [SUNY Brockport](https://www.brockport.edu/) as a Meteorology major, but soon changed to Water Resources so I could focus more on watershed scale management and water quality BMPs for farms. While at SUNY Brockport I received the departmental scholar award during my junior and senior year, as well as worked on developing MS4 plans and tree inventories for the campus.
+
+### Boulder County Parks & Open Space
+
+After graduating, I returned to Colorado where I started as a Seasonal Water Resource Technician at Boulder County Parks & Open Space before becoming a full time Water Resource Specialist. Shortly after becoming a Water Resource Specialist, the area was ravaged by the September 2013 Flood. I spent much of my time working on emergency, and then permanent, stream restoration and diversion replacements.
+
+:::{#bc_flood .figure}
+[![](images/bc_flood.jpg)](https://bouldercounty.gov/open-space/management/flood-recovery-projects/)
+
+Boulder County Flood Recovery Projects
+:::
+
+### City of Boulder Raw Water Supply Team
+
+I started with the City of Boulder's raw water supply team to expand my experience into municipal water use and gain additional experience in managing water rights. Some of my favorite duties included creating water rights trainings for City staff, managing the City's Instream Flow Program on Boulder Creek, and developing an extensive education and outreach program about the City's Water Supply, Water Rights, and Irrigation Ditches. 
+
+:::{#cob_water .figure}
+[![](images/cob_water.png)](https://bouldercolorado.gov/services/water-supply-and-planning)
+
+City of Boulder Water Supply and Planning
+:::
+
+### Oregon State University
+
+I began my return to graduate school by completing a [Graduate Certificate in Fisheries Management from Oregon State University](https://ecampus.oregonstate.edu/online-degrees/graduate/fisheries-management/). This allowed me to learn more about managing fish populations and focus on honing my skills in minimum stream flow restoration techniques.
+
+### National Park Service
+
+Most recently I have been working with the National Park Service Water Resource Division as a Hydrology and Database Specialist. My duties have focused on developing a Groundwater Well database, a Water Rights database, and a Water Supply Database. In addition, I frequently assist in completing technical investigations of groundwater and surface water supplies in parks across the country.
+
+:::{#nps_wrd .figure}
+[![](images/nps_wrd.png)](https://www.nps.gov/orgs/1439/index.htm)
+
+National Park Service Water Resource Division
+
+### Colorado State University
+
+My most recent graduate school activities have me focused on completing my [Master's in Ecosystem Science & Sustainability - Water Resources](https://warnercnr.colostate.edu/ess/professional-masters-ecosystem-science-and-sustainability/water-resources-degree-track-psm-ess/), a program that focuses on data analysis and project management. Many of my projects have focused on using R to create models from large datasets and remote sensing products.
+
