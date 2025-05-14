@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="well-database-demo" class="level3">
 <h3 class="anchored" data-anchor-id="well-database-demo">Well Database Demo</h3>
 <p>I created this <a href="https://dougdunn.shinyapps.io/NPSwells/">Well Database ShinyApp</a> demo for the National Park Service to showcase a simple option to create a user interface that could host a database for groundwater wells and link those wells to water level measurements in NWIS (if available).</p>
-<p>Ultimately it was decided to host the user interface was as a custom ArcGIS Experience that I created, to allow for the well database to be incorporated into a number of other NPS webmaps and Experiences.</p>
+<p>Ultimately it was decided to host the user interface as a custom ArcGIS Experience that I created, to allow for the well database to be incorporated into a number of other NPS AGO Webmaps and Experiences.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="tracking-water-storage-in-frozen-lake" class="level3">
 <h3 class="anchored" data-anchor-id="tracking-water-storage-in-frozen-lake">Tracking Water Storage in Frozen Lake</h3>
-<p>As part of the Water Supply investigation at Mount Rainier National Park I combined depth measurements made by park staff with USGS DEM data to create a new storage rating curver for Frozen Lake.</p>
+<p>As part of the Water Supply investigation at Mount Rainier National Park I combined depth measurements made by park staff with USGS DEM data to create a new storage rating curve for Frozen Lake.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -166,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="water-supply-well-reports" class="level3">
 <h3 class="anchored" data-anchor-id="water-supply-well-reports">Water Supply Well Reports</h3>
-<p>I compiled a number of reports on several water supply wells in use by the National Park Service. This was a large amount of data, as the water levels had been recorded at 30 minute intervals for more than 10 years. In addition, I needed to estimate water use based on when water levels were drawn down by the pump in each well. This required creating several functions to identify when the water was being drawn down by the pump, when the water level was recovering after the pump was off, and when water level changes were due to changes in the surrounding groundwater.</p>
-<p>This plot of daily water level min, mean, and max is an example of the natural water level (min) and water level during pumping the water level (max). Mean roughly visualizes use, but can be misleading at times.</p>
+<p>I compiled a number of reports on several water supply wells in use by the National Park Service. This was a large amount of data, as the water levels had been recorded at 15 to 30 minute intervals for more than 10 years. In addition, I needed to estimate water use based on when water levels were drawn down by the pump in each well. This required creating several functions to identify when the water was being drawn down by the pump, when the water level was recovering after the pump was off, and when water level changes were due to changes in the surrounding groundwater.</p>
+<p>This plot of daily water level min, mean, and max is an example of the natural water level (represented by the min water level) and water level drawdown during pumping (represented by the max water level). The mean water level roughly visualizes use, but can be misleading at times.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>I was also able to summarize this data for each year to compare how operations have changed and if the water use is driven by visitation to the park.</p>
+<p>I was also able classify time periods when the pump was running and summarize this data for each year to compare how operations have changed and if the water use is driven by visitation to the park.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -191,6 +191,20 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="csu-projects" class="level2">
 <h2 class="anchored" data-anchor-id="csu-projects">CSU Projects</h2>
+<section id="poudre-river-flow-forecast" class="level3">
+<h3 class="anchored" data-anchor-id="poudre-river-flow-forecast">Poudre River Flow Forecast</h3>
+<p>This project used 11 years (2013 to 2023) of monthly data for flows on the Poudre River at the Canyon mouth as well as precipitation, solar radiation, and max temperature for the contributing watershed to generate six different flow prediction models. The models were then fed MACA climate prediction data to predict flows. Finally, I compared the model predictions to the monthly observed flows between Jan 2024 and May 2025.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/poudre_flows.png" class="img-fluid figure-img" width="527"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>These models highlight the variability and difficulty with predicting runoff in human managed streams, as you can clearly see the influence of downstream water deliveries occurring in fall.</p>
+</section>
 <section id="covid-19-spread-and-case-estimates" class="level3">
 <h3 class="anchored" data-anchor-id="covid-19-spread-and-case-estimates">COVID-19 Spread and Case Estimates:</h3>
 <p>For this project I looked at COVID cases and deaths across the country, tracked how they changed over time and space, and created a linear regression model to estimate new cases where data was unavailable.</p>
@@ -204,8 +218,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="remote-sensing-flood-inundation" class="level3">
-<h3 class="anchored" data-anchor-id="remote-sensing-flood-inundation">Remote Sensing Flood Inundation</h3>
+<section id="remote-sensing-based-flood-inundation" class="level3">
+<h3 class="anchored" data-anchor-id="remote-sensing-based-flood-inundation">Remote Sensing based Flood Inundation</h3>
 <p>This project looked at the flooding event that took place in Palo, Iowa in September of 2016. Using landsat imagery, I developed a classification threshold from a number of indices to identify flooded areas, which were then plotted on an interactive map to compare against some of the known flood areas.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -217,8 +231,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="flow-predictions" class="level3">
-<h3 class="anchored" data-anchor-id="flow-predictions">Flow Predictions</h3>
+<section id="repeatable-flow-prediction-workflows" class="level3">
+<h3 class="anchored" data-anchor-id="repeatable-flow-prediction-workflows">Repeatable Flow Prediction Workflows</h3>
 <p>For this project I worked with the CAMELS dataset to test a number of attributes to be used as predictors for flow (Q) in a number of different models. The goal was to not only create a successful model (R-squared &gt; 0.9), but to also create a workflow in tidymodels that can evaluate and tune a number of different model types efficiently. For this case, the neural net model was the best pick, but since it was a neural net model it was difficult to identify what attributes had been the most important in model.</p>
 <div class="cell">
 <div class="cell-output-display">
