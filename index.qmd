@@ -5,7 +5,7 @@ about:
   template: trestles
   links: 
     - text: LinkedIn
-      href: www.linkedin.com/in/douglasgdunn
+      href: https://www.linkedin.com/in/douglasgdunn
     - text: GitHub
       href: https://github.com/ddunn303
     - text: Email
@@ -23,6 +23,6 @@ I’m passionate about **education and outreach**, working to help communities a
 ```{=html}
 <object data="data/resume.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;"> 
 <p>It appears you don't have a PDF plugin for this browser.
-No worries... you can <a href="resume.pdf">click here to download a PDF of my resume.</a></p> 
+No worries... you can <a href="data/resume.pdf">click here to download a PDF of my resume.</a></p> 
 </object>
 ```
