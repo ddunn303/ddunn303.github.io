@@ -56,4 +56,4 @@ As funding availability has changed, I have also been working with the State of 
 :::{#dwr .figure}
 [![](images/dwr.png)](https://dwr.colorado.gov/)
 
-National Park Service Water Resource Division
+State of Colorado Division of Water Resources
