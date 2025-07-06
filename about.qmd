@@ -39,7 +39,7 @@ I began my return to graduate school by completing a [Graduate Certificate in Fi
 
 ### National Park Service
 
-Most recently I have been working with the National Park Service Water Resource Division as a Hydrology and Database Specialist. My duties have focused on developing a Groundwater Well database, a Water Rights database, and a Water Supply Database. In addition, I frequently assist in completing technical investigations of groundwater and surface water supplies in parks across the country.
+While completing my Masters, I have been working with the National Park Service Water Resource Division as a Hydrology and Database Specialist. My duties have focused on developing a Groundwater Well database, a Water Rights database, and a Water Supply Database. In addition, I frequently assist in completing technical investigations of groundwater and surface water supplies in parks across the country.
 
 :::{#nps_wrd .figure}
 [![](images/nps_wrd.png)](https://www.nps.gov/orgs/1439/index.htm)
@@ -50,3 +50,10 @@ National Park Service Water Resource Division
 
 My most recent graduate school activities have me focused on completing my [Master's in Ecosystem Science & Sustainability - Water Resources](https://warnercnr.colostate.edu/ess/professional-masters-ecosystem-science-and-sustainability/water-resources-degree-track-psm-ess/), a program that focuses on data analysis and project management. Many of my projects have focused on using R to create models from large datasets and remote sensing products.
 
+### State of Colorado Water Resource Division
+As funding availability has changed, I have also been working with the State of Colorado while completing my Masters. As part of the Water Supply Team for the Arkansas, Rio Grande, San Juan, and Dolores River basins, I evaluate groundwater well, water right, and water supply applications against current water availability and regulations in these basins.
+
+:::{#dwr .figure}
+[![](images/dwr.png)](https://dwr.colorado.gov/)
+
+National Park Service Water Resource Division
