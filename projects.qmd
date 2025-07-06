@@ -5,6 +5,15 @@ format: html
 
 ## NPS Projects
 
+### Sunrise Visitor Center Water Supply Assessment
+As part of a research project at Mount Rainier National Park, I conducted a comprehensive assessment of the water supply system for the Sunrise Visitor Complex, which relies on Frozen Lake and a small 22-acre alpine watershed. My work focused on data-driven analysis of over a decade of water use records, hydrologic and climatic datasets, and historical engineering documents. I developed a remote sensing workflow to remotely monitor future lake levels, constructed a predictive model of seasonal runoff under future climate scenarios, and evaluated alternative groundwater development using geospatial and geophysical data. This project integrated legal, physical, and ecological constraints to produce actionable recommendations, and demonstrated my ability to apply advanced analytical methods to real-world water resource challenges.
+
+::: {.flex gap=4}
+![](images/frozen_ert.png){width=100%}
+![](images/frozen_model.png){width=100%}
+:::
+
+
 ### Well Database Demo
 I created this [Well Database ShinyApp](https://dougdunn.shinyapps.io/NPSwells/) demo for the National Park Service to showcase a simple option to create a user interface that could host a database for groundwater wells and link those wells to water level measurements in NWIS (if available).
 
