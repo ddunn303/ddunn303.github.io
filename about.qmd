@@ -48,7 +48,7 @@ National Park Service Water Resource Division
 
 ### Colorado State University
 
-My most recent graduate school activities have me focused on completing my [Master's in Ecosystem Science & Sustainability - Water Resources](https://warnercnr.colostate.edu/ess/professional-masters-ecosystem-science-and-sustainability/water-resources-degree-track-psm-ess/), a program that focuses on data analysis and project management. Many of my projects have focused on using R to create models from large datasets and remote sensing products.
+My most recent graduate school activities have me focused on completing my [Master's in Ecosystem Science & Sustainability - Water Resources](https://warnercnr.colostate.edu/ess/water-resources/), a program that focuses on data analysis and project management. Many of my projects have focused on using R to create models from large datasets and remote sensing products.
 
 ### State of Colorado Water Resource Division
 As funding availability has changed, I have also been working with the State of Colorado while completing my Masters. As part of the Water Supply Team for the Arkansas, Rio Grande, San Juan, and Dolores River basins, I evaluate groundwater well, water right, and water supply applications against current water availability and regulations in these basins.
